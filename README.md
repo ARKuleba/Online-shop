@@ -20,14 +20,17 @@
 Для запуска Online-shop выполните следующие шаги:
 
 1. Клонируйте репозиторий:
-   git clone https://github.com/ARKuleba/Online-shop.git
+   `git clone https://github.com/ARKuleba/Online-shop.git`
 2. Перейдите в директорию проекта:
-   cd Online-shop
+   `cd Online-shop`
 3. Установите зависимости:
-   npm install
+   `npm install`
 4. Запустите приложение:
-   npm run start
-5. Откройте браузер и перейдите по адресу http://localhost:5173/
+   `npm run start`
+5. Откройте браузер и перейдите по адресу `http://localhost:5173/`
+
+## Авторы - Yuriy Kulesh - [GitHub профиль](https://github.com/ARKuleba)
+## Лицензия: Проект Online-shop распространяется под лицензией [MIT](https://opensource.org/licenses/MIT).
 
    
    
