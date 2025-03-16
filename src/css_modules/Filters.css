@@ -1,0 +1,112 @@
+.Filters {
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 1%;
+}
+
+.colorBox, .categoryBox, .priceBox {
+    border: 1px solid;
+    background-color: snow;
+    opacity: 0.6;
+    height: 4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.filterBox {
+    display: flex;
+    align-items: center;
+}
+
+.colorBox:hover, .categoryBox:hover {
+    opacity: 1;
+}
+
+.priceBox {
+    display: flex;
+    align-items: center;
+}
+
+.priceBox:hover, .categoryBox:hover {
+    opacity: 1;
+}
+
+.price {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.line {
+    margin: 0;
+    width: 6px;
+}
+
+.checking {
+    width: 15px;
+    padding-left: 0;
+    height: 16px;
+}
+
+p {
+    width: 23.5%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 1% 0 0 15%;
+}
+
+@media(max-width: 787px) {
+    p {
+        font-size: 14px;
+    }
+
+    .colorBox, .categoryBox, .priceBox {
+        font-size: 15px;
+    }
+
+    .box {
+        margin: 1% 0 0 3%;
+        font-size: 13px;
+      }
+
+      .price {
+        width: 45%;
+        font-size: 14px;
+      }   
+}
+
+@media(max-width: 481px) {
+    p {
+        font-size: 12px;
+    }
+
+    .colorBox, .categoryBox, .priceBox {
+        font-size: 13px;
+    }
+
+    .price {
+        width: 45%;
+        font-size: 13px;
+    }   
+}
+
+@media(max-width: 1080px) and (max-height: 480px) {
+    .colorBox, .categoryBox, .priceBox {
+        height: 8%;
+    }
+}
