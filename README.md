@@ -20,7 +20,7 @@
 Для запуска Online-shop выполните следующие шаги:
 
 1. Клонируйте репозиторий:
-   git clone https://github.com/YourUsername/Online-shop.git
+   git clone https://github.com/ARKuleba/Online-shop.git
 2. Перейдите в директорию проекта:
    cd Online-shop
 3. Установите зависимости:
